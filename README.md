@@ -1,5 +1,5 @@
-# sql6
-327 final project folder
+# SQL6: Recipes Database
+
 
 INST 327 – Database Design and Modeling  Team Project Plan - See Canvas for the deadline Report Requirements
 Ensure that your team understands the report requirements; if you have any questions please ask the instructor as soon as possible. Your team may lose points if you do not follow all of the instructions.
