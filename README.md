@@ -43,16 +43,8 @@ Query 3 (theAlbannaBrothers): The chef’s name and recipes name by chefs with A
 Query 4 (numberOfIngredients): The chef’s name, recipes name, and count of ingredients of recipes by chefs without Alison as the first name.
 “What noodle recipes are there from the Food Network?”
 Query 5 (soups_from_foodnetwork): The recipe id, recipes name, and media link of recipes from foodnetwork with soup as a tag.
-Figure 2: Queries Requirements Table
 
-View Name	Req. A	Req. B	Req. C	Req. D	Req. E
-whatCanIMake	x			x	
-sendNoods	x	x		x	
-theAlbannaBrothers	x	x	x	x	
-numberOfIngredients	x	x	x	x	
-soups_from_foodnetwork	x	x	x	x	x
-
-Description: The name of the query is on the left. The requirement is on the right. An “x” indicates that the query completes the requirements. 
+ 
 
 --------
  
