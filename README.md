@@ -38,22 +38,27 @@ Sample Data
 
 The sample data is from Github, the open source code exchange. The data was in JSON format, so we wrote a Python script that manipulated the data into a readable format. The JSON file provided us information such as the name, source, preparation time, wait time, cooktime, serving size, comments, amount of calories, amount of fat, saturated fat, fiber, carbs, sugar, protein, and it provides instructions. The scope of the project is larger than the sample data. The JSON file lacked media links, tags, and other important information. As a result, we created some of the sample data from our knowledge of food recipes. The sample data aided in the accomplishment of our goal because the sample data created a realistic prototype of the broad scope of the source. 
 
+
+
 --------
 
 Views/Queries
 
-“What recipes exist in the database? What should I prepare? Who created it?”
 Query 1 (whatCanIMake): The chef’s name, recipe name, ingredients, and quantities of every recipe.  Recipes are sorted by recipe name, and then the chef’s last name. 
 “What can I make with noodles and what will I need?”
+
 Query 2 (sendNoods): The chef’s name, recipe name, ingredients, and quantities of recipes with noodles as an ingredient. 
 “My last name is Albanna! Are there any recipes from people with my last name?”
+
 Query 3 (theAlbannaBrothers): The chef’s name and recipes name by chefs with Albanna as the last name.
 “I know an Alison. I hate her guts. Are there any recipes that are not associated with the first name ‘Alison’?”
+
 Query 4 (numberOfIngredients): The chef’s name, recipes name, and count of ingredients of recipes by chefs without Alison as the first name.
 “What noodle recipes are there from the Food Network?”
+	
 Query 5 (soups_from_foodnetwork): The recipe id, recipes name, and media link of recipes from foodnetwork with soup as a tag.
 
- 
+<script src="https://gist.github.com/gadsone/9925e00b50f240d82f3ba5895e66ec5a.js"></script>
 
 --------
  
