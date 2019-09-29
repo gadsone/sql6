@@ -14,9 +14,13 @@ Database Description
 
 Logical Design
 
+
 When we created our model, we were a little confused about what attributes to include in  it. We had scrapped our original dataset and wound up finding a concept that was more interesting. However, we were still unsure how we wanted to organize our theoretical data. One of us found a new source of data to scrape that was centered around the recipes. So, we made the recipes the main table to join everything together. There were some conflicts about how we should show each recipe because there are  many ingredients involved, and many possible tags. This was resolved by putting each in a respective table, and then put a joining table between the recipes and these catalog tables. We deleted the twitter values from both the chefs and websites tables, as well as the website_id link between the two since the last report, as suggested.
 
 Our main table is the recipes table. The recipes table includes data such as the recipe_id, the chef_id, recipe_name, description of the recipe, minimum preparation time, total time, serving minimum, serving maximum, directions, and website id. We used the recipes table as the root from which to branch out other tables. The recipe table also links with the recipe tag table which contains the recipe ID and a tag id. The recipe tag table links to the tags table which contains the tag id and the tag name. The media table contains the media ID, recipe id and the media link of the recipe. The website table contains the website id, website name, and the website url. The measurements table which contains the associated recipe ID, the associated ingredient ID, the quantity, and lastly the units of measurement. The measurement table links to the ingredients table which contains the ingredient ID and the ingredient name. The last table is the chef’s table which contains the chef ID, the chefs first name and the chef last name.
+<a href="https://ibb.co/XSHbGgg"><img src="https://i.ibb.co/m6pGPww/recipes.png" alt="recipes" border="0"></a>>2010 subaru impreza wrx 0 60</a><br />
+
+
 
 
 Figure 1: Food Database ERD
@@ -51,16 +55,8 @@ Query 3 (theAlbannaBrothers): The chef’s name and recipes name by chefs with A
 Query 4 (numberOfIngredients): The chef’s name, recipes name, and count of ingredients of recipes by chefs without Alison as the first name.
 “What noodle recipes are there from the Food Network?”
 Query 5 (soups_from_foodnetwork): The recipe id, recipes name, and media link of recipes from foodnetwork with soup as a tag.
-Figure 2: Queries Requirements Table
 
-View Name	Req. A	Req. B	Req. C	Req. D	Req. E
-whatCanIMake	x			x	
-sendNoods	x	x		x	
-theAlbannaBrothers	x	x	x	x	
-numberOfIngredients	x	x	x	x	
-soups_from_foodnetwork	x	x	x	x	x
-
-Description: The name of the query is on the left. The requirement is on the right. An “x” indicates that the query completes the requirements. 
+ 
 
 --------
  
